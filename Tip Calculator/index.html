@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="header">
+                <h2 class="heading">Tip Calculator</h2>
+            </div>
+            
+            <div class="line"></div>
+            <form>
+                <label for="Bill Amt" class="label">&nbsp;Price</label>
+                <input type="number" name="Bill_Amt" id="Bill_Amt" class="items" placeholder="$">
+
+                <label for="Tip" class="label">&nbsp;Tip %</label>
+                <input type="number" name="Tip" id="Tip" class="items" placeholder="%">
+
+                <label for="no_of_people" class="label">&nbsp;Number of People</label>
+                <input type="number" name="no_of_people" class="items" id="no_of_people">
+            </form>
+
+            <div class="buttons">
+                <button class="btn" id="calculate">Calculate▶</button>
+                <button class="btn" id="clear">Clear</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

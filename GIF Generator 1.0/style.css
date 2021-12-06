@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);
+    background: linear-gradient(to right, #928DAB, #00d2ff); 
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    background: #00d2ff; 
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff); 
+    background: linear-gradient(to right, #928DAB, #00d2ff); 
+
+}
+
+
+.header{
+    position: absolute;
+    top:60px;
+}
+
+.header h1{
+    font-size: 42px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    display: flex;
+    margin-top: 150px;
+    height:400px;
+}
+
+.input #gif_input{
+    height:50px;
+    width:700px;
+    padding:12px;
+    font-family: cursive;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right:4px;
+}
+
+.search .btn{
+    height:50px;
+    width: 100px;
+    background-color: yellow;
+    color:black;
+    font-size: 19px;
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gif_container{
+    display:flex;
+    height:auto;
+    width:900px;
+    display: inline-block;
+    position: relative;
+    left:39px;
+}
+
+.gif_container .image{
+    height:190px;
+    width:245px;
+    margin:12px;
+    display: inline;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.gif_container .image:hover{
+    cursor: pointer;
+}
